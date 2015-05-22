@@ -29,12 +29,12 @@ Dimensions: 180 rows (30 subjects x 6activities) x 68 columns
 
 Columns:
 
-* column 1- SubjectID: subjectnumber from 1 to 30
-* column 2 - Activity: 6 activities (LAYING,SITTING,STANDING,WALKING,WALKINGDOWNSTAIRS,WALKINGUPSTAIRS)
-* column 3:35 - Mean value (per subject & activity) for each of the 33 features relating to the window-mean
-* column 36:68 - Mean value (per subject & activity) for each of the 33 features relating to the window-std
+* column 1 = SubjectID: subjectnumber from 1 to 30
+* column 2 = Activity: 6 activities (LAYING,SITTING,STANDING,WALKING,WALKING_DOWNSTAIRS,WALKING _UPSTAIRS)
+* column 3:35 = 'tBodyAcc.mean.X' to 'fBodyBodyGyroJerkMag.mean': Mean value per subject & activity of the 33 features relating to the window-mean
+* column 36:68 ='tBodyAcc.std.X' to 'fBodyBodyGyroJerkMag.std': Mean value per subject & activity of the 33 features relating to the window-std
 
-Note1: The columnheadings for the features were read in from the original features.txt files (while getting rid from some unnecessary characters); I don't have any affinity with the data and could not think of any abbreviations/descriptions that would be more meaningful than the original ones.
+Note1: The columnheadings of the features were read in from the original features.txt files (while getting rid of some unnecessary characters); I don't have any affinity with the data and could not think of any abbreviations/descriptions that would be more meaningful than the original ones.
 
 Note2: When reading the dataset into R, specify 'header=TRUE' in the read.table statement.
 

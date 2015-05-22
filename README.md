@@ -4,8 +4,16 @@ author: "thielemansa"
 date: "Friday, May 22, 2015"
 output: html_document
 ---
+##Content of repo
 
-###run_analysis.R script - clarification of steps
+Files for evaluation of the 'Getting and Cleaning data' course project assignment:
+
+* run_analysis.R : script that produces one tidy dataset (from a set of original provided datasets) following the instructions from the course project assignment. The steps included in the script are clarified below (the script is also documented with clarification statements) 
+* datawidemean.txt : tidy dataset - output produced by run_analysis.R
+* CodeBook.md : brief information about original data and summary information about tidy dataset
+* README.md : general info
+
+####run_analysis.R script - clarification of steps
 
 Set working directory, initialize dplyr and reshape2 libraries
 
